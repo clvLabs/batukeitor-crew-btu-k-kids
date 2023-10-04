@@ -1,0 +1,46 @@
+# Batukeitor score
+name: Nuevo tema 01/10/23
+
+bpm: 100
+score:
+  base
+
+
+sections:
+
+  base:
+    name: Base
+    color: "#006000"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      AP: "                                "
+      CH: "                                "
+      AG: "                                "
+      CC: "                                "
+      CV: "                                "
+      TB: "                                "
+      RP: "                                "
+      CX: "                                "
+      S3: "                                "
+      S2: "                                "
+      S1: "XXXXX   XXXXX   XXXXXXXXXXXXX   "
+
+  fin:
+    name: Fin
+    color: "#AA0000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---"
+      DD: "        "
+      AP: "        "
+      CH: "        "
+      AG: "        "
+      CC: "        "
+      CV: "        "
+      TB: "        "
+      RP: "        "
+      CX: "        "
+      S3: "        "
+      S2: "        "
+      S1: "        "
