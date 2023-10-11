@@ -3,132 +3,79 @@ name: Agua con gas
 
 bpm: 130
 score:
-  intro1 intro2
-  intro1 intro2
+  intro
+  intro
   ---
-  base1 base2
-  c1 c2
-  base1 base2
+  base
+  corte
+  base
   ---
-  intro1 intro2
-  intro1 intro2
+  intro
+  intro
   ---
-  base1 base2
-  base1 base2
+  base
+  base
   ---
-  base1 fin
+  fin
 
 sections:
 
-  intro1:
-    name: Intro (1/2)
+  intro:
+    name: Intro
     color: "#c3a012"
     tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "                                "
-      AG: "                                "
-      CC: "                                "
-      CV: "                                "
-      TB: "          XXX X           XXX X "
-      RP: "X  X  X X       X  X  X X       "
-      CX: "X  X  X X XXX X X  X  X X XXX X "
-      S3: "X  X  X X       X  X  X X       "
-      S2: "X  X  X X       X  X  X X       "
-      S1: "X  X  X X       X  X  X X       "
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                                "
+      AP: "                                                                "
+      CH: "                                                                "
+      AG: "                                                                "
+      CC: "                                                                "
+      CV: "                                                                "
+      TB: "          XXX X           XXX X X       X       X         XXX X "
+      RP: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      CX: "X  X  X X XXX X X  X  X X XXX X X       X       X         XXX X "
+      S3: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      S2: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      S1: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
 
 
-  intro2:
-    name: Intro (2/2)
-    color: "#e3bb1b"
-    tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "                                "
-      AG: "                                "
-      CC: "                                "
-      CV: "                                "
-      TB: "X       X       X         XXX X "
-      RP: "X  X  X X  X  X X  X  X X       "
-      CX: "X       X       X         XXX X "
-      S3: "X  X  X X  X  X X  X  X X       "
-      S2: "X  X  X X  X  X X  X  X X       "
-      S1: "X  X  X X  X  X X  X  X X       "
-
-  base1:
-    name: Base (1/2)
+  base:
+    name: Base
     color: "#006000"
     tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "                                "
-      AG: "                                "
-      CC: "                                "
-      CV: "                                "
-      TB: "X  X  X   X X   X  X  X   X X   "
-      RP: "X  X  X   X X   X  X  X   X X   "
-      CX: "X--X--X---X-X---X--X--X---X-X---"
-      S3: "X  X  X X       X  X  X X       "
-      S2: "X  X  X X       X  X  X X       "
-      S1: "X  X  X X       X  X  X X       "
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                                "
+      AP: "                                                                "
+      CH: "                                                                "
+      AG: "                                                                "
+      CC: "                                                                "
+      CV: "                                                                "
+      TB: "X  X  X   X X   X  X  X   X X   X  X  X   X X   X  X  X   X X   "
+      RP: "X  X  X   X X   X  X  X   X X   X  X  X   X X   X  X  X   X X   "
+      CX: "X--X--X---X-X---X--X--X---X-X---X--X--X---X-X---X--X--X---X-X---"
+      S3: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      S2: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      S1: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
 
 
-  base2:
-    name: Base (2/2)
-    color: "#004000"
-    tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "                                "
-      AG: "                                "
-      CC: "                                "
-      CV: "                                "
-      TB: "X  X  X   X X   X  X  X   X X   "
-      RP: "X  X  X   X X   X  X  X   X X   "
-      CX: "X--X--X---X-X---X--X--X---X-X---"
-      S3: "X  X  X X  X  X X  X  X X       "
-      S2: "X  X  X X  X  X X  X  X X       "
-      S1: "X  X  X X  X  X X  X  X X       "
-
-  c1:
-    name: Corte (1/2)
+  corte:
+    name: Corte
     color: "#000060"
     tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "                                "
-      AG: "                                "
-      CC: "                                "
-      CV: "                                "
-      TB: "X  X  X X       X  X  X X       "
-      RP: "X  X  X X       X  X  X X       "
-      CX: "X  X  X X       X  X  X X       "
-      S3: "          XXX X           XXX X "
-      S2: "          XXX X           XXX X "
-      S1: "          XXX X           XXX X "
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                                "
+      AP: "                                                                "
+      CH: "                                                                "
+      AG: "                                                                "
+      CC: "                                                                "
+      CV: "                                                                "
+      TB: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      RP: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      CX: "X  X  X X       X  X  X X       X  X  X X  X  X X  X  X X       "
+      S3: "          XXX X           XXX X         X       X       X XXX X "
+      S2: "          XXX X           XXX X         X       X       X XXX X "
+      S1: "          XXX X           XXX X         X       X       X XXX X "
 
-  c2:
-    name: Corte (2/2)
-    color: "#000040"
-    tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "                                "
-      AG: "                                "
-      CC: "                                "
-      CV: "                                "
-      TB: "X  X  X X  X  X X  X  X X       "
-      RP: "X  X  X X  X  X X  X  X X       "
-      CX: "X  X  X X  X  X X  X  X X       "
-      S3: "        X       X       X XXX X "
-      S2: "        X       X       X XXX X "
-      S1: "        X       X       X XXX X "
 
   fin:
     name: Fin
