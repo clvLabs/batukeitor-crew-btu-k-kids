@@ -5,7 +5,6 @@ bpm: 100
 score:
   base
 
-
 sections:
 
   base:
@@ -13,17 +12,7 @@ sections:
     color: "#006000"
     tracks:
       #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "                                "
-      AG: "                                "
-      CC: "                                "
-      CV: "                                "
-      TB: "                                "
-      RP: "                                "
-      CX: "                                "
-      S3: "                                "
-      S2: "                                "
+      S2: "X   X   X   X   X   X   X   X   "
       S1: "XXXXX   XXXXX   XXXXXXXXXXXXX   "
 
   fin:
@@ -32,15 +21,5 @@ sections:
     timeSignature: 2/4
     tracks:
       #   "1---2---"
-      DD: "        "
-      AP: "        "
-      CH: "        "
-      AG: "        "
-      CC: "        "
-      CV: "        "
-      TB: "        "
-      RP: "        "
-      CX: "        "
-      S3: "        "
-      S2: "        "
-      S1: "        "
+      S2: "X       "
+      S1: "X       "
