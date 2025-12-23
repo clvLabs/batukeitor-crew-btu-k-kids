@@ -1,0 +1,62 @@
+# Batukeitor score
+name: Papa Noel
+bpm: 110
+
+score:
+  intro intro
+  base base
+  b1 b1
+  base base
+  b2 b2 fin
+
+sections:
+  intro:
+    name: intro
+    color: "#12c3a0"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      RP: "X XX XX X XX XX X XX XX .   .   "
+      CX: "                        X   X   "
+      S2: "                        X   X   "
+      S1: "                        X   X   "
+
+
+  base:
+    name: Base
+    color: "#c3a012"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      RP: "X XX XX X X X X X XX XX X   X   "
+      CX: "X--X--X-X-X-X-X-X--X--X-X---X---"
+      S2: "X   X   X X X X X   X   X   X   "
+      S1: "X   X   X X X X X   X   X   X   "
+
+  b1:
+    name: Break1
+    color: "#c312a0"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      RP: "X XX XX . . .   X XX XX .   .   "
+      CX: "X--X--X - - -   X--X--X -   -   "
+      S2: "X   X   - - -   X   X   -   -   "
+      S1: "X   X   - - -   X   X   -   -   "
+
+  b2:
+    name: Break2
+    color: "#12c3a0"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      RP: "XXXX.   XXXX.   XXX XXX XXXX.   "
+      CX: "XXXX-   XXXX-   XXX XXX XXXX-   "
+      S2: "XXXX-   XXXX-   XXX XXX XXXX-   "
+      S1: "XXXX-   XXXX-   XXX XXX XXXX-   "
+
+  fin:
+    name: Fin
+    color: "#FF0000"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      RP: "XXXX.   XXXX.   XXXXXXXXXXXX.   "
+      CX: "XXXX-   XXXX-   XXXXXXXXXXXX-   "
+      S2: "XXXX-   XXXX-   XXXXXXXXXXXX-   "
+      S1: "XXXX-   XXXX-   XXXXXXXXXXXX-   "
